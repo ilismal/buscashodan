@@ -1,0 +1,14 @@
+[project]
+name = "buscashodan"
+version = "0.3.0"
+description = "Script para obtener informacion de fuentes publicas de las IPs listadas en el fichero ips.txt"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "datetime>=6.0",
+    "ipwhois>=1.3.0",
+    "pandas>=3.0.0",
+    "requests>=2.32.5",
+    "shodan>=1.31.0",
+    "tqdm>=4.67.3",
+]
